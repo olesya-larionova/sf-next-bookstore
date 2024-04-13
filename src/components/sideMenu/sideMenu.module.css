@@ -1,0 +1,35 @@
+.sideMenu {
+    display: block;
+    background-color: #EFEEF6;
+    position: absolute;
+    width: 416px;
+    left: 300px;
+    top: 880px;
+}
+
+.list {
+    color: #5C6A79;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-style:normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.list li {
+    margin: 20px 80px;
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.list li.active {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.list li:hover {
+    font-weight: 700;
+    font-size: 16px;
+    list-style-type: disc;
+}

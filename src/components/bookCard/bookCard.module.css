@@ -1,0 +1,9 @@
+.bookCard {
+    display: block;
+    width:424px;
+    min-width: 424px;
+    height:300px;
+    min-height: 300px;
+    margin: 0;
+    background-color: blueviolet;
+}

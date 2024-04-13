@@ -1,0 +1,11 @@
+.grid {
+    position:absolute;
+    top:900px;
+    left:600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 96px 76px;
+    width: 924px;
+    background-color: transparent;
+    padding: 40px 0;
+}

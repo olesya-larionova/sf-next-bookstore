@@ -1,0 +1,137 @@
+/* свойства, общие для корзины */
+.moduleName {
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 700;
+    text-transform: uppercase;    
+
+    display: block;
+    width: 100%;
+    max-width: 1120px;
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+   
+}
+
+.tableHeader {
+    display: flex;
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10px;
+    font-style:normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+    width: 100%;
+    max-width: 1120px;
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+    
+}
+
+.columnItem {
+    width: 410px;
+}
+
+.columnQuantity {
+    width: 200px;
+}
+
+.columnPrice {
+    width: 200px;
+}
+
+.columnDelivery {
+    width: 300px;
+}
+
+/* свойства товаров в корзине */
+.cartItem {
+    display: flex;
+    height: 140px;
+
+    width: 100%;
+    max-width: 1120px;
+    /*background-color: aquamarine;*/
+    margin: 20px auto;
+
+}
+
+.bookCover {
+    margin: auto 0;
+    border: none;
+    height: 140px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.bookInfo {
+    margin: auto 10px;
+    border: none;
+    width: 280px;
+}
+
+.quantity {
+    margin: auto 10px;
+    border: none;
+    width: 180px;
+}
+
+.price {
+    margin: auto 10px;
+    border: none;
+    width: 180px;
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style:normal;
+    font-weight: 700;
+}
+
+.delivery {
+    margin: auto 10px;
+    border: none;
+    width: 300px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-style:normal;
+    font-weight: 700;
+}
+
+/* свойства книги */
+.bookTitle {
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.bookAuthor {
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bookScore {
+    color: #1C2A39;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: 24px;
+}
